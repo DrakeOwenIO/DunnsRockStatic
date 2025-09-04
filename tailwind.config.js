@@ -1,7 +1,15 @@
 module.exports = {
-  content: ["./public/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,md,njk,js}",
+    "./_includes/**/*.{html,njk}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lodgeBlue: '#1e3a8a',
+        lodgeGold: '#d4af37'
+      }
+    },
   },
   plugins: [],
 }
