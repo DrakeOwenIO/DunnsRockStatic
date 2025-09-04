@@ -3,7 +3,7 @@ layout: layout.njk
 title: Home
 ---
 
-<section class="relative bg-cover bg-center h-96 text-white" style="background-image: url('/path-to-building.jpg');">
+<section class="relative bg-cover bg-center h-96 text-white" style="background-image: url('/assets/lodge_front.jpg');">
   <div class="bg-black/50 absolute inset-0"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
     <h2 class="text-4xl font-bold">Welcome to Dunn’s Rock Lodge</h2>
